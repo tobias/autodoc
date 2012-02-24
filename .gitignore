@@ -1,2 +1,8 @@
 #ignore generated autodoc files
 autodoc/**
+classes/*
+lib/*
+target
+pom.xml
+*.jar
+.lein-deps-sum

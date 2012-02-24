@@ -1,5 +1,5 @@
-(defproject autodoc "0.9.0"
-  :description "A tool to build HTML documentation from your Clojure source"
+(defproject org.tcrawley/autodoc "0.9.2"
+  :description "A tool to build HTML documentation from your Clojure source (modified to build full indexes)"
   :url "http://github.com/tomfaulhaber/autodoc"
   :main autodoc.autodoc
   :aot [autodoc.autodoc]

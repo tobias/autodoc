@@ -149,7 +149,8 @@ Returns: (\"\" \"abc\" \"123\" \"def\")"
 (defn ns-toc-data [ns]
   (apply 
    vector 
-   ["Overview" "toc0" (var-toc-entries ns)]
+   [(:short-name ns) (:short-name ns) (var-toc-entries ns)
+    ]
    (for [sub-ns (:subspaces ns)]
      [(:short-name sub-ns) (:short-name sub-ns) (var-toc-entries sub-ns)])))
 
